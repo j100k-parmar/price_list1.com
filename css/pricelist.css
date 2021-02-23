@@ -1,0 +1,104 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main {
+        width: 85%;
+        height: 100vh;
+        margin: auto;
+        margin-top: 20px;
+        background-color: darksalmon;
+    }
+    
+    .main h1 {
+        margin: auto;
+        width: 600px;
+        padding-top: 30px;
+    }
+    
+    .main strong {
+        color: white;
+    }
+    
+    .main h3 {
+        color: rgb(22, 22, 56);
+        width: 265px;
+        padding-top: 10px;
+        margin: auto;
+        font-size: 27px;
+        border-bottom: 2px solid black;
+    }
+    
+    .main p {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 45px;
+    }
+    
+    .sub {
+        background-color: white;
+        margin: 30px;
+        /* width: 287px; */
+        height: 440px;
+    }
+    
+    .main ul {
+        margin: 20px 0 0 40px;
+    }
+    
+    .main ul li {
+        padding: 10px 0 0 10px;
+        font-size: 18px;
+    }
+    
+    .sub1 {
+        width: 350px;
+        height: 500px;
+        margin: 90px 0 0 50px;
+        float: left;
+        background-color: rgb(166, 201, 166);
+        border: 5px solid rgb(22, 22, 56);
+        transition: 1s;
+    }
+    
+    .sub1:hover {
+        background-color: darkgreen;
+        /* border: 5px solid white; */
+        border-radius: 5px;
+        transform: translateY(-60px);
+    }
+    
+    .sub2 {
+        width: 350px;
+        height: 500px;
+        margin: 90px 0 0 50px;
+        float: left;
+        background-color: rgb(174, 177, 211);
+        border: 5px solid rgb(22, 22, 56);
+        transition: 1s;
+    }
+    
+    .sub2:hover {
+        background-color: darkblue;
+        /* border: 5px solid white; */
+        border-radius: 5px;
+        transform: translateY(-60px);
+    }
+    
+    .sub3 {
+        width: 350px;
+        height: 500px;
+        margin: 90px 0 0 50px;
+        float: left;
+        background-color: rgb(172, 133, 175);
+        border: 5px solid rgb(22, 22, 56);
+        transition: 1s;
+    }
+    
+    .sub3:hover {
+        background-color: rgb(189, 23, 175);
+        /* border: 5px solid white; */
+        border-radius: 5px;
+        transform: translateY(-60px);
+    }
